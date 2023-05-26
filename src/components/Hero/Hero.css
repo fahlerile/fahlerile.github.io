@@ -1,0 +1,49 @@
+.pink {
+    color: #E65F78;
+}
+
+.hidden {
+    display: none;
+}
+
+h1, h2, .hero__container__text__conditional {
+    color: white;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+.material-symbols-outlined {
+    color: white;
+    text-align: center;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    isolation: isolate;
+    background: #1F1F1F;
+    min-height: 89.6vh;
+}
+
+.hero__container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 25px;
+    width: 100%;
+    max-width: 60%;
+    padding-inline: 10%;
+}
+
+#hero__container__avatar {
+    height: 200px;
+    border-radius: 100%;
+}

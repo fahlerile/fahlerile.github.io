@@ -1,0 +1,48 @@
+.navbar {
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 0px 5vw;
+    position: relative;
+    height: 10.4vh;
+    z-index: 2;
+}
+
+.navbar__linkList {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+    list-style-type: none;
+    margin-left: auto;
+}
+
+.navbar__linkList__item {
+    color: #F7F7F7;
+}
+
+.navbar__linkList__item:hover {
+    color: #E65F78;
+}
+
+.navbar__socialMediaList {
+    padding: 0;
+}
+
+.navbar__socialMediaList__item {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.navbar__socialMediaList__item__link__icon {
+    height: 30px;
+}
