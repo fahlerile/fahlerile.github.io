@@ -1,32 +1,27 @@
 import React from "react";
 import Project from '../Project/Project.js';
+import data from '../../projectsData.json';
 import './Projects.css';
 
 function Projects() {
-  let data = {
-    name: 'Project One',
-    date: '05.2023',
-    img: 'avatar.jpg'
-  }
-
   return (
     <div className="projects">
       <div className="projects__main">
         <Project
           position={[1, 1, 2, 2]}
-          data={data}
+          data={data[0]}
         />
         <Project
           position={[1, 2, 2, 3]}
-          data={data}
+          data={data[1]}
         />
         <Project 
           position={[2, 1, 3, 2]}
-          data={data}
+          data={data[2]}
         />
         <Project 
           position={[2, 2, 3, 3]}
-          data={data}
+          data={data[3]}
         />
       </div>
     </div>

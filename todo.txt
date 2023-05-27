@@ -1,4 +1,8 @@
-use github api to retrieve pfp instead of hardcoding image
-create about component
-create works component
-create contact component
+DONE create an onclick listener on discord tag to copy it, then show "Copied!" for ~3 seconds
+
+load all projects data to some json file, then render everything from it
+create popups for each project https://www.youtube.com/watch?v=i8fAO_zyFAM
+
+potential projects:
+CIFAR-10 classification
+IMDB sentimental classification using Naive Bayes
