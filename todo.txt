@@ -1,1 +1,4 @@
 use github api to retrieve pfp instead of hardcoding image
+create about component
+create works component
+create contact component
