@@ -27,14 +27,19 @@
     width: auto;
 }
 
-h2 {
+.title {
     margin-top: 10px;
     margin-bottom: 0;
+    cursor: default;
 }
 
-h3 {
+.subtitle {
     font-weight: 400;
     margin: 0;
-    color: #73808d;
     font-size: 16px;
+    cursor: default;
+}
+
+.gray {
+    color: #73808d;
 }

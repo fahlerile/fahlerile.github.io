@@ -10,3 +10,36 @@
     grid-row-gap: 30px;
     margin-bottom: 100px;
 }
+
+.popup__link {
+    color: black;
+    transition: color .3s;
+}
+
+.popup__link:hover {
+    color: #92B4EC;
+}
+
+.popup__link__title {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.popup__paragraph {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.popup__imageWrapper {
+    background-color: #d6f3f3;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 50px;
+    /* margin-bottom: 15px; */
+}
+
+.popup__imageWrapper__image {
+    max-width: 100%;
+    max-height: 600px;
+}

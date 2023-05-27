@@ -37,7 +37,7 @@ function Navbar() {
             </a>
           </li>
           <li className='navbar__linkList__item'>
-            <a onClick={handleClick}>
+            <a onClick={handleClick} class='navbar__linkList__item__discord'>
               <i className="fa-brands fa-discord fa-lg"></i>
               <TextTransition inline={true} direction="down" translateValue="50%" springConfig={{mass: 0.1, tension: 100, friction: 20}}>
                 {showCopied ? "Copied!" : 'fahlerile#1063'}

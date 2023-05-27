@@ -1,0 +1,18 @@
+.popup {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 90px 10%;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.popup__backToHome {
+    letter-spacing: 4px;
+    font-size: 12px;
+    cursor: default;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
