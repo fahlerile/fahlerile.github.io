@@ -1,5 +1,6 @@
 import Navbar from './components/Navbar/Navbar.js';
 import Hero from './components/Hero/Hero.js';
+import Projects from './components/Projects/Projects.js';
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Hero/>
+      <Projects/>
     </div>
   );
 }

@@ -1,0 +1,29 @@
+/* .project {
+
+} */
+
+.project__imageBg {
+    background-color: #d6f3f3;
+    box-sizing: border-box;
+    border-radius: 7px;
+    aspect-ratio: 680 / 410;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.project__imageBg img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h3 {
+    font-weight: 400;
+    margin: 0;
+}

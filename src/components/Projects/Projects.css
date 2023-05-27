@@ -1,0 +1,12 @@
+.projects {
+    padding: 0 10%;
+}
+
+.projects__main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 100px;
+}
