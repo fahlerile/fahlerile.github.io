@@ -35,10 +35,10 @@
 }
 
 .navbar__linkList__item__discord {
-    cursor: default;
+    cursor: pointer;
 }
 
-i {
+.fa-lg {
     margin-right: 3px;
 }
 
@@ -53,4 +53,10 @@ i {
 
 .hidden {
     display: none;
+}
+
+@media screen and (max-width: 483px) {
+    .fa-lg {
+        display: none;
+    }
 }

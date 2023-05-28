@@ -1,7 +1,10 @@
-DONE create an onclick listener on discord tag to copy it, then show "Copied!" for ~3 seconds
-DONE load all projects data to some json file, then render everything from it
+style the website for phones
+fill everything with content
 
-create popups for each project https://www.youtube.com/watch?v=i8fAO_zyFAM
+CONSIDER CREATING A PYTHON API FOR MY MODELS (FASTAPI)
+https://stackoverflow.com/questions/36067767/how-do-i-upload-a-file-with-the-js-fetch-api
+
+deploy on github pages
 
 potential projects:
 CIFAR-10 classification

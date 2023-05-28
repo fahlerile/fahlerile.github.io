@@ -1,5 +1,5 @@
 .projects {
-    padding: 0 10%;
+    padding: 0 15%;
 }
 
 .projects__main {
@@ -11,63 +11,40 @@
     margin-bottom: 100px;
 }
 
-.popup__link {
-    color: black;
-    transition: color .3s;
-}
-
-.popup__link:hover {
-    color: #92B4EC;
-}
-
-.popup__link__title {
-    margin-top: 0;
-    margin-bottom: 15px;
-}
-
 .popup__paragraph {
     margin: 0;
     margin-bottom: 15px;
 }
 
-.popup__imageWrapper {
-    background-color: #d6f3f3;
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 50px;
-}
-
-.popup__imageWrapper__image {
-    max-width: 100%;
-    max-height: 600px;
-}
-
-.popup__footer {
-    background-color: #F4F6FC;
-    padding: 30px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px; 
-}
-
-.popup__footer__prev {
-    grid-area: 1 / 1 / 2 / 2;
-}
-
-.popup__footer__next {
-    grid-area: 1 / 2 / 2 / 3;
-}
-
-.popup__footer__prev, .popup__footer__next {
-    text-align: center;
-    font-weight: 700;
-    cursor: default;
+.popup__paragraph__link {
+    color: #73808d;
     transition: color .3s;
 }
 
-.popup__footer__prev:hover, .popup__footer__next:hover {
+.popup__paragraph__link:hover {
     color: #92B4EC;
+}
+
+@media screen and (max-width: 1450px) {
+    .projects {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .projects {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .projects__main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        margin-bottom: 100px;
+        margin-bottom: 50px;
+    }
 }
