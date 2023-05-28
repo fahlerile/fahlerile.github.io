@@ -36,10 +36,38 @@
     justify-content: center;
     box-sizing: border-box;
     padding: 50px;
-    /* margin-bottom: 15px; */
 }
 
 .popup__imageWrapper__image {
     max-width: 100%;
     max-height: 600px;
+}
+
+.popup__footer {
+    background-color: #F4F6FC;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; 
+}
+
+.popup__footer__prev {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.popup__footer__next {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.popup__footer__prev, .popup__footer__next {
+    text-align: center;
+    font-weight: 700;
+    cursor: default;
+    transition: color .3s;
+}
+
+.popup__footer__prev:hover, .popup__footer__next:hover {
+    color: #92B4EC;
 }

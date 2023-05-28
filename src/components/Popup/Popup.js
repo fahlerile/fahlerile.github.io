@@ -8,7 +8,7 @@ function Project(props) {
 
   return props.show ? (
     <div className="popup">
-      <p className="popup__backToHome gray" onClick={handleClick}>
+      <p className="popup__backToHome" onClick={handleClick}>
         ⟵BACK TO HOME
       </p>
       {props.children}
