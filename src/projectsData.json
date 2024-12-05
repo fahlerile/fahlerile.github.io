@@ -2,41 +2,41 @@
     {
        "name": "Project One",
        "date": "05.2023",
-       "img": "images/avatar.jpg",
+       "img": "images/image.png",
        "popup": {
-         "description": "sdkfjasdkfjaisdufapsidofpsadf",
+         "description": "Project One description",
          "githubLink": "https://github.com/",
-         "img": "images/avatar.jpg"
+         "img": "images/image.png"
        }
     },
     {
        "name": "Project Two",
        "date": "11.2022",
-       "img": "images/(1).jpg",
+       "img": "images/image.png",
        "popup": {
          "description": "Project Two description",
          "githubLink": "https://github.com/",
-         "img": "images/(1).jpg"
+         "img": "images/image.png"
        }
     },
     {
        "name": "Project Three",
        "date": "08.2022",
-       "img": "images/(2).jpg",
+       "img": "images/image.png",
        "popup": {
          "description": "Project Three description",
          "githubLink": "https://github.com/",
-         "img": "images/(2).jpg"
+         "img": "images/image.png"
        }
     },
     {
        "name": "Project Four",
        "date": "02.2023",
-       "img": "images/(3).jpg",
+       "img": "images/image.png",
        "popup": {
          "description": "Project Four description",
          "githubLink": "https://github.com/",
-         "img": "images/(3).jpg"
+         "img": "images/image.png"
        }
     }
 ]

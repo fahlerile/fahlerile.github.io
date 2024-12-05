@@ -6,9 +6,10 @@ import './Navbar.css';
 
 function Navbar() {
   const [showCopied, setShowCopied] = React.useState(false);
+  let discord = 'fahlerile';
 
   function handleClick() {
-    navigator.clipboard.writeText('fahlerile#1063');
+    navigator.clipboard.writeText(discord);
     setShowCopied(true);
   }
 
@@ -27,11 +28,6 @@ function Navbar() {
             </a>
           </li>
           <li className='navbar__linkList__item'>
-            <a href='https://twitter.com/fahlerile' target='_blank' rel="noreferrer">
-              <i className="fa-brands fa-twitter fa-lg"></i>twitter
-            </a>
-          </li>
-          <li className='navbar__linkList__item'>
             <a href='https://www.kaggle.com/fahlerile' target='_blank' rel="noreferrer">
             <i className="fa-brands fa-kaggle fa-lg"></i>kaggle
             </a>
@@ -40,7 +36,7 @@ function Navbar() {
             <a onClick={handleClick} class='navbar__linkList__item__discord'>
               <i className="fa-brands fa-discord fa-lg"></i>
               <TextTransition inline={true} direction="down" translateValue="50%" springConfig={{mass: 0.1, tension: 100, friction: 20}}>
-                {showCopied ? "Copied!" : 'fahlerile#1063'}
+                {showCopied ? "Copied!" : discord}
               </TextTransition>
             </a>
           </li>
@@ -48,6 +44,6 @@ function Navbar() {
       </nav>
   );
 }
-  
+
 export default Navbar;
-  
+
